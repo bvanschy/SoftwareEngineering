@@ -1,5 +1,5 @@
 # Software Engineering
-Documents of software engineer topics.
+Notes from research of software engineering topics.
 
 ----------
 
