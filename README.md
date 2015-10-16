@@ -7,7 +7,7 @@ Activities
 
 1. [Requirements](/Activities/01-requirements.md)
 2. [Estimation](/Activities/02-estimation.md)
-3. [Interaction Systems Design](/Activities/03-interactive-systems-design.md)
+3. [Interactive Systems Design](/Activities/03-interactive-systems-design.md)
 4. [Architecture](/Activities/04-architecture.md)
 5. [Detailed Design](/Activities/05-detailed-design.md)
 6. [Construction](/Activities/06-construction.md)
