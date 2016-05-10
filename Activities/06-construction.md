@@ -247,15 +247,133 @@ System
 
 ## Algorithms
 
-ToDo
+Big-Oh: asymptotically less than the function
+
+- f(n) is O(g(n)) if there exists constants c > 0, n<sub>0</sub> >= 1 such that f(n) <= cg(n) for every integer n >= n<sub>0</sub>
+
+Big-Omega: asymptotically greater than the function
+
+Big-Theta: asymptotically equal to the function
+
+Geometric series summation
+
+- SUM<sub>i=0..n</sub>(a<sup>i</sup>) = (1 - a<sup>n+1</sup>) / (1 - a)
+
+Arithmetic series summation
+
+- SUM<sub>i=1..n</sub>(i) = n(n + 1) / 2
+
+
+
 
 ## Data Structures
 
-ToDo
+Stack
+
+- Last-in first-out (LIFO)
+- Push(o), Pop(), Size(), IsEmpty(), Top()
+
+Queue
+
+- First-in first-out (FIFO)
+- Enqueue(o), Dequeue(), Size(), IsEmpty(), Front()
+
+Vector
+
+- By rank
+- ElementAt(r), ReplaceAt(r, e), InsertAt(r, e), RemoveAt(r), Size(), IsEmpty()
+
+List
+
+- By position
+- First(), Last(), IsFirst(p), IsLast(p), Before(p), After(p), Size(), IsEmpty()
+- Replace(p, e), Swap(p, q), InsertFirst(e), InsertLast(e), InsertBefore(p, e), InsertAfter(p, e), Remove(p)
+
+Sequence
+
+- By rank and position
+
+Tree
+
+- Root(), Parent(v), Children(v)
+- IsInternal(v), IsExternal(v), IsRoot(v)
+- Size(), Elements(), Positions(), Swap(v, w), Replace(v, e)
+- Preorder traversal:  Root, Subtrees
+- Postorder traversal:  Subtrees, Root
+
+Binary Tree (specialized tree)
+
+- LeftChild(v), RightChild(v), Sibling(v)
+- Inorder traversal: Left subtree, Root, Right subtree
+
+Priority Queue
+
+- InsertItem(key, e), RemoveMin(), Size(), IsEmpty()
+- Selection-sort
+  - Unordered sequence
+  - O(n<sup>2</sup>) time
+- Insertion-sort
+  - Ordered sequence
+  - O(n<sup>2</sup>) time
+
+Heap (priority queue)
+
+- Binary tree
+- For every node *v*, Key(*v*) >= Key(Parent(*v*))
+- Complete binary tree
+  - Maximum nodes at each level
+  - All internal nodes are left of external nodes
+- Heap-sort
+  - O(n log(n)) time
+
+Dictionary
+
+- Find(k), Insert(k, e), Remove(k), Size(), IsEmpty()
+
+Hash Table
+
+- TODO
+
+Binary Search Tree
+
+- All elements in the left subtree are less than the parent
+- All elements in the right subtree are greater than the parent
+
+AVL Tree
+
+- Balanced heights: For every internal node *v*, the heights of the children of *v* differ by at most 1
+- Height is O(log n)
+
+(2,4) Tree (a B-tree)
+
+- Nodes have 2, 3, or 4 elements
+- Internal nodes have k+1 children, where k = number of elements
+- Insertion
+  - Nodes that overflow require a split
+  - O(log n) time
+- Removal
+  - Nodes that underflow require a transfer or fusion
+  - O(log n) time
+
+Red-Black Tree
+
+- TODO
+
+Splay Tree
+
+- TODO
+
+Skip List
+
+- TODO
+
+
 
 
 # References
 Fowler, Martin. *Refactoring: Improving the Design of Existing Code*. Addison-Wesley, 1999.
+
+Goodrich, Michael and Tamassia, Roberto. *Algorithm Design*. John Wiley & Sons, Inc., 2002.
 
 House, Corry. *Clean Code: Writing Code for Humans*, [PluralSight](http://www.pluralsight.com/courses/writing-clean-code-humans), 2013.
 
