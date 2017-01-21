@@ -12,7 +12,7 @@ Responding to change > Following a plan
 ### Regular delivery of software
 Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
 
-Delivery working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter time scale.
+Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter time scale.
 
 Working software is the primary measure of progress.
 
