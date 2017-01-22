@@ -25,7 +25,7 @@ The most efficient and effective method of conveying information to and within a
 
 The best architectures, requirements, and designs emerge from self-organizing teams.
 
-Build project around motivated individuals. Give them the environment and support they need, and trust them to get the job done.
+Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.
 
 At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
 
